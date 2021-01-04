@@ -281,46 +281,57 @@ function json2Table(json, inputName, tableName, disableTags) {
     {"English Name (From Cantonese)":"Yip Man","Trad. char.":"葉問","Cantonese (Jyutping)":"jip6 man6","Simp. char.":"叶问","Mandarin (Pinyin)":"Yè Wèn","Meaning(s) in English":"Yip Man (1893-1972), or Ip Man, was a renowned martial arts practitioner of wing chun","Alternate romanizations/other meanings":"","Tags":"general, name, practitioner"}
 ];
 
-  var formsData = wingChun.filter(f => f.Tags.includes('form'));
-  var footworkData = wingChun.filter(f => f.Tags.includes('footwork'));
-  var handData = wingChun.filter(f => f.Tags.includes('hand'));
-  var legData = wingChun.filter(f => f.Tags.includes('leg'));
-  var drillsData = wingChun.filter(f => f.Tags.includes('drill'));
-  var conceptsData = wingChun.filter(f => f.Tags.includes('concept'));
-  var poleData = wingChun.filter(f => f.Tags.includes('pole'));
-  var swordsData = wingChun.filter(f => f.Tags.includes('swords'));
-  var maData = wingChun.filter(f => f.Tags.includes('ma'));
-  var generalData = wingChun.filter(f => f.Tags.includes('general'));
+var formsData = wingChun.filter(f => f.Tags.includes('form'));
+var footworkData = wingChun.filter(f => f.Tags.includes('footwork'));
+var handData = wingChun.filter(f => f.Tags.includes('hand'));
+var legData = wingChun.filter(f => f.Tags.includes('leg'));
+var drillsData = wingChun.filter(f => f.Tags.includes('drill'));
+var conceptsData = wingChun.filter(f => f.Tags.includes('concept'));
+var poleData = wingChun.filter(f => f.Tags.includes('pole'));
+var swordsData = wingChun.filter(f => f.Tags.includes('swords'));
+var maData = wingChun.filter(f => f.Tags.includes('ma'));
+var generalData = wingChun.filter(f => f.Tags.includes('general'));
 
-  complete = document.getElementById('wingChunContainer');
-  complete.insertAdjacentHTML('beforeend',json2Table(wingChun, 'wingChunInput', 'wingChunTable', false));
+complete = document.getElementById('wingChunContainer');
+if (complete !== null)
+	complete.insertAdjacentHTML('beforeend',json2Table(wingChun, 'wingChunInput', 'wingChunTable', false));
 
-  forms = document.getElementById('formsContainer');
-  forms.insertAdjacentHTML('beforeend',json2Table(formsData, 'formsInput', 'formsTable', true));
+forms = document.getElementById('formsContainer');
+if (forms !== null)
+	forms.insertAdjacentHTML('beforeend',json2Table(formsData, 'formsInput', 'formsTable', true));
 
-  footwork = document.getElementById('footworkContainer');
-  footwork.insertAdjacentHTML('beforeend',json2Table(footworkData, 'footworkInput', 'footworkTable', true));
+footwork = document.getElementById('footworkContainer');
+if (footwork !== null)
+	footwork.insertAdjacentHTML('beforeend',json2Table(footworkData, 'footworkInput', 'footworkTable', true));
 
-  hand = document.getElementById('handTechniquesContainer');
-  hand.insertAdjacentHTML('beforeend',json2Table(handData, 'handTechniquesInput', 'handTechniquesTable', true));
+hand = document.getElementById('handTechniquesContainer');
+if (hand !== null)
+	hand.insertAdjacentHTML('beforeend',json2Table(handData, 'handTechniquesInput', 'handTechniquesTable', true));
 
-  leg = document.getElementById('legTechniquesContainer');
-  leg.insertAdjacentHTML('beforeend',json2Table(legData, 'legTechniquesInput', 'legTechniquesTable', true));
+leg = document.getElementById('legTechniquesContainer');
+if (leg !== null)
+	leg.insertAdjacentHTML('beforeend',json2Table(legData, 'legTechniquesInput', 'legTechniquesTable', true));
 
-  pole = document.getElementById('poleTechniquesContainer');
-  pole.insertAdjacentHTML('beforeend',json2Table(poleData, 'poleTechniquesInput', 'poleTechniquesTable', true));
+pole = document.getElementById('poleTechniquesContainer');
+if (pole !== null)
+	pole.insertAdjacentHTML('beforeend',json2Table(poleData, 'poleTechniquesInput', 'poleTechniquesTable', true));
 
-  swords = document.getElementById('swordsTechniquesContainer');
-  swords.insertAdjacentHTML('beforeend',json2Table(swordsData, 'swordsTechniquesInput', 'swordsTechniquesTable', true));
+swords = document.getElementById('swordsTechniquesContainer');
+if (swords !== null)
+	swords.insertAdjacentHTML('beforeend',json2Table(swordsData, 'swordsTechniquesInput', 'swordsTechniquesTable', true));
 
-  drills = document.getElementById('drillsContainer');
-  drills.insertAdjacentHTML('beforeend',json2Table(drillsData, 'drillsInput', 'drillsTable', true));
+drills = document.getElementById('drillsContainer');
+if (drills !== null)
+	drills.insertAdjacentHTML('beforeend',json2Table(drillsData, 'drillsInput', 'drillsTable', true));
 
-  concepts = document.getElementById('conceptsContainer');
-  concepts.insertAdjacentHTML('beforeend',json2Table(conceptsData, 'conceptsInput', 'conceptsTable', true));
+concepts = document.getElementById('conceptsContainer');
+if (concepts !== null)
+	concepts.insertAdjacentHTML('beforeend',json2Table(conceptsData, 'conceptsInput', 'conceptsTable', true));
 
-  ma = document.getElementById('martialArtsContainer');
-  ma.insertAdjacentHTML('beforeend',json2Table(maData, 'martialArtsInput', 'martialArtsTable', true));
+ma = document.getElementById('martialArtsContainer');
+if (ma !== null)
+	ma.insertAdjacentHTML('beforeend',json2Table(maData, 'martialArtsInput', 'martialArtsTable', true));
 
-  general = document.getElementById('generalContainer');
-  general.insertAdjacentHTML('beforeend',json2Table(generalData, 'generalInput', 'generalTable', true));
+general = document.getElementById('generalContainer');
+if (general !== null)
+	general.insertAdjacentHTML('beforeend',json2Table(generalData, 'generalInput', 'generalTable', true));

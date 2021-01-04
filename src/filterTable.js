@@ -34,14 +34,32 @@ var tableNames = {
 	"wingChunInput": "#wingChunTable tbody",
 };
 
-document.querySelector('#formsInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#footworkInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#handTechniquesInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#legTechniquesInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#poleTechniquesInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#conceptsInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#martialArtsInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#generalInput').addEventListener('keyup', filterTable, false);
-document.querySelector('#drillsInput').addEventListener('keyup', filterTable, false);
+if (document.querySelector('#footworkInput') !== null)
+	document.querySelector('#footworkInput').addEventListener('keyup', filterTable, false);
 
-document.querySelector('#wingChunInput').addEventListener('keyup', filterTable, false);
+if (document.querySelector('#legTechniquesInput') !== null)
+	document.querySelector('#legTechniquesInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#formsInput') !== null)
+	document.querySelector('#formsInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#handTechniquesInput') !== null)
+	document.querySelector('#handTechniquesInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#poleTechniquesInput') !== null)
+	document.querySelector('#poleTechniquesInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#conceptsInput') !== null)
+	document.querySelector('#conceptsInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#martialArtsInput') !== null)
+	document.querySelector('#martialArtsInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#generalInput') !== null)
+	document.querySelector('#generalInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#drillsInput') !== null)
+	document.querySelector('#drillsInput').addEventListener('keyup', filterTable, false);
+
+if (document.querySelector('#wingChunInput') !== null)
+	document.querySelector('#wingChunInput').addEventListener('keyup', filterTable, false);
