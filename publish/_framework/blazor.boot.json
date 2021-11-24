@@ -36,7 +36,7 @@
       "System.Runtime.dll": "sha256-0whgifbhE9iGOsxWmUcQv2ca1g27hN0xBsliWFu97PI=",
       "System.Text.Encodings.Web.dll": "sha256-2si5LS8tRWuGqAH2WpDDgr3HLVXlthSj8Zuj8tdONAI=",
       "System.Text.Json.dll": "sha256-1BK2o1LLY3rL+O+pZ8NNBcCuh2u5oTgKQA7q2NcN3ls=",
-      "VingTsun.dll": "sha256-ys09ptW46D2AZaOUCgUtQiDk63o9jTRakCyCW3K7nWY="
+      "VingTsun.dll": "sha256-yXz\/JzBnmGvPsv2cv6KEhqxRRjOHkPPEN6j3qRYh+yg="
     },
     "extensions": null,
     "lazyAssembly": null,
