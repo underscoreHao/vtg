@@ -125,7 +125,7 @@
 		"jyutping": "bong2 dou1",
 		"simplified": "膀刀",
 		"pinyin": "bǎng dāo",
-		"meaning": "wing knives",
+		"meaning": "upper arm knives",
 		"other": "",
 		"tags": "swords, weapon"
 	},
@@ -135,7 +135,7 @@
 		"jyutping": "bong2 gwan3",
 		"simplified": "膀棍",
 		"pinyin": "bǎng gùn",
-		"meaning": "wing pole",
+		"meaning": "upper arm pole",
 		"other": "",
 		"tags": "pole, weapon"
 	},
@@ -145,8 +145,8 @@
 		"jyutping": "bong2 sau2",
 		"simplified": "膀手",
 		"pinyin": "bǎng shǒu",
-		"meaning": "upper-arm deflection; wing arm",
-		"other": "",
+		"meaning": "upper arm deflection",
+		"other": "wing arm",
 		"tags": "hand"
 	},
 	{
@@ -1675,7 +1675,7 @@
 		"jyutping": "paau1 bong2",
 		"simplified": "拋膀",
 		"pinyin": "pāo bǎng",
-		"meaning": "throwing bong sau deflection; throwing wing arm deflection",
+		"meaning": "throwing bong sau deflection; throwing upper arm deflection",
 		"other": "",
 		"tags": "hand"
 	},
@@ -2165,7 +2165,7 @@
 		"jyutping": "ji4 bong2",
 		"simplified": "移膀",
 		"pinyin": "yí bǎng",
-		"meaning": "shifting bong sau deflection; shifting wing arm deflection",
+		"meaning": "shifting bong sau deflection; shifting upper arm deflection",
 		"other": "",
 		"tags": "hand"
 	},
